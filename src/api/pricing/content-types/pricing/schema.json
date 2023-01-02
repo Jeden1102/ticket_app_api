@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price_month": {
+      "type": "decimal"
+    },
+    "price_year": {
+      "type": "decimal"
+    },
+    "main": {
+      "type": "boolean"
+    },
+    "max_customers": {
+      "type": "string"
+    },
+    "max_admins": {
+      "type": "string"
+    },
+    "margin": {
+      "type": "decimal"
+    },
+    "custom_seats": {
+      "type": "boolean"
+    },
+    "config_help": {
+      "type": "boolean"
+    },
+    "max_events": {
+      "type": "integer"
+    }
+  }
+}
