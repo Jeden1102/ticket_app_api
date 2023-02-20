@@ -4,15 +4,25 @@
   "info": {
     "singularName": "event-category",
     "pluralName": "event-categories",
-    "displayName": "Event Category"
+    "displayName": "Event Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "Name": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
