@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ticket_pools",
+  "info": {
+    "singularName": "ticket-pool",
+    "pluralName": "ticket-pools",
+    "displayName": "Ticket Pool"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "event": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event.event"
+    }
+  }
+}
