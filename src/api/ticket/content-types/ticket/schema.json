@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ticket",
     "pluralName": "tickets",
-    "displayName": "Ticket"
+    "displayName": "Ticket",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,10 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::ticket-pool.ticket-pool"
+    },
+    "returned": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

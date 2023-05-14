@@ -108,6 +108,14 @@
           "localized": true
         }
       }
+    },
+    "ticket_refundable": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
     }
   }
 }
